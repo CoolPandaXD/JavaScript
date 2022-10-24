@@ -1,0 +1,101 @@
+
+.card1{
+    color:rgb(202, 97, 243);
+    background-color:aquamarine;
+    border-radius:10px;
+    border: solid 3px rgb(131, 131, 223);
+    box-shadow: 0px 0px 10px rgb(0, 217, 255);
+}
+
+.homework{
+background-color: wheat;
+border: solid 1px red;
+border-radius:10px;
+width: 250px;
+padding: 10px;
+
+}
+
+.bonus{
+    background-color:yellow;
+}
+
+.btn-send{
+    border:none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    box-shadow: 0px 0px 10px black;
+}
+
+.btn-send:hover{
+    background-color: rgb(81, 47, 145);
+    color: black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px lavender;
+
+}
+
+
+.ok{
+    color: hotpink;
+}
+
+.fine{
+  color: mediumpurple;
+  border:none;
+  border-radius:10px;
+  background-color: black;
+  color: white;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  box-shadow: 0px 0px 10px black;
+
+}
+
+.check{
+    color: mediumpurple;
+    border:none;
+    border-radius:10px;
+    background-color: black;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    box-shadow: 0px 0px 10px hsl(0, 0%, 0%);
+
+}
+
+.col{
+    width:300px;
+    display:inline-block;
+    height:10%;
+    padding:9px;
+    margin-left:15px;
+    margin-bottom: 25px;
+    background-color: rgb(180, 232, 198);
+    border-radius: 10px;
+}
+
+.card-img{
+    height: 400px;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.card-body{
+    background-color: rgb(108, 185, 139);
+}
+
+.card-text{
+    color: blueviolet;
+}
+
+.about-me{
+    text-align: right;
+    border: solid 1px gray;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.about-img{
+    border-radius: 15px;
+}

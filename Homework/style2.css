@@ -1,0 +1,78 @@
+
+body {
+    background-image: url("https://img.freepik.com/premium-vector/aesthetic-minimal-purple-wallpaper-illustration-perfect-wallpaper-backdrop-postcard-background-your-design_565280-733.jpg?w=2000" );
+   
+
+   }
+
+   /* The alert message box */
+/* .alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    /* color: white;
+    margin-bottom: 15px;
+  } */ 
+  
+  /* The close button */
+  /* .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  } */
+  
+  /* When moving the mouse over the close button */
+  /* .closebtn:hover {
+    color: black;
+  } */
+
+  .Bonus-btn{
+    background-color: rgb(155, 123, 203);
+    border-radius: 10px;
+  }
+
+  .title{
+    color: rgb(68, 0, 255);
+  }
+
+  .Harry-btn{
+    background-color: rgb(155, 123, 203);
+    border-radius: 10px;
+  }
+
+  .bon-btn{
+    background-color: rgb(155, 123, 203);
+    border-radius: 10px;
+  }
+
+  .sar-btn{
+    background-color: rgb(155, 123, 203);
+    border-radius: 10px;
+  }
+
+  .harry1{
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  .bon1{
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  .sar1{
+    text-align: right;
+    margin-right: 30px;
+  }
+  #myBtn {
+    position: absolute;
+  }
+  .container {
+    position: relative;
+    z-index: -1;
+  }
+

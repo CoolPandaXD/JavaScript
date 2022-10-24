@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="about-style.css">
+<script src="https://use.fontawesome.com/c81ecebad8.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="script.jc"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark sticky-top">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            </a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="about.html" class="nav-link px-2 text-white">About Me</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Movies</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+
+      
+    <!-- <h1>About Me ! 🔯</h1>
+    <h2>Heyyyy</h2> -->
+
+
+<!-- <center><h1>פרטים אישיים</h1></center>
+
+<center>
+<div class="about-me">
+
+<img class="about-img" src="https://i.pinimg.com/564x/6b/ab/1c/6bab1c9f6745ba9c41f2ab70f2250434.jpg" width="200" height="300" alt="תמונה שלי:)">
+
+<h3>קוראים לי</h3>
+<h5>יהל רחום</h5>
+
+<h3>אני בת</h3>
+<h5>13</h5>
+
+<h3>אני גרה ב</h3>
+<h5>אשקלון</h5>
+
+</div>
+</center>
+
+<center>
+
+  <h1>-צור קשר-</h1>
+<br>
+
+<form action="#" onsubmit="sendEmail; this.reset(); return false">
+<h5>:שם פרטי</h5>
+<Input name="firstName" type="text" class="form-control" required>
+
+<h5>:שם משפחה</h5>
+<input name="lastName" type="text" class="form-control" required>
+
+<h5>:אימייל</h5>
+<input name="email" type="email" class="form-control" required>
+
+<h5>טקסט חופשי</h5>
+<textarea name="messageContent" id="" cols="30" rows="3" class="form-control" required></textarea>
+
+<br>
+<input type="submit" class="btn-send" value="שלח">
+
+</form> -->
+
+
+<center>
+  <h1>פרטים אישיים</h1>
+
+  <div class="about-me">
+    <img class="about-img" src="https://i.pinimg.com/564x/6b/ab/1c/6bab1c9f6745ba9c41f2ab70f2250434.jpg" width="200" height="300" alt="תמונה שלי:)">
+    <h3>קוראים לי</h3>
+    <h5>יהל</h5>
+    <h3>אני בת</h3>
+    <h5>13</h5>
+    <h3>אני גר ב</h3>
+    <h5>אשקלון</h5>
+  </div>
+</center>
+<center>
+  <h1>צור איתי קשר</h1>
+  <br>
+  <h5>:שם פרטי</h5>
+  <form action="#" onsubmit="sendEmail(); this.reset(); return false">
+    <input type="text" name="firstName" class="form-control" style="width: 200px; text-align:right; resize: none;"
+      autocomplete="off" required>
+    <h5>:שם משפחה</h5>
+    <input type="text" name="lastName" class="form-control" autocomplete="off" required>
+    <h5>:אימייל</h5>
+    <input type="email" name="email" class="form-control" autocomplete="off" required>
+    <h5>:טקסט חופשי</h5>
+    <textarea name="messageContent" rows="5" class="form-control" required></textarea>
+    <br>
+    <input type="submit" class="btn btn-success" value="שלח">
+  </form>
+  <br>
+  <h5 style="display:none;" id="sent-success"> ההודעה נשלחה בהצלחה! אצור איתך קשר בהקדם</h5>
+  
+  <div class="links">
+  <a href="https://he-il.facebook.com/Benzini1996/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+  <a href="https://www.instagram.com/yahel.rahum/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+  <a href="tel:+972542066397" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+  <a href="https://discord.gg/NEEcdRVA" target="_blank"><i class="fab fa-discord fa-2x"></i></a>
+  </div>
+
+</center>
+
+
+
+
+
+<br>
+<br>
+</body>
+</html>
